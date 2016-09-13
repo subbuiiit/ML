@@ -62,7 +62,8 @@ ax.set_title("data set")
 '''
 DECISION TREES::
 nonparametric discriminartive learning method. goal is to predict a binary tree based model that
-predicts the traget value by learning simple decision tules from the data. Given a training data (X, y), a decision tree recursively partitions the space such that samples with same lables are grouped together.
+predicts the traget value by learning simple decision tules from the data. Given a training data (X, y), 
+a decision tree recursively partitions the space such that samples with same lables are grouped together.
 
 Controling parameters are max_depth.
 loss functions used are gini/entropy to measure impurity of datasplits. 
